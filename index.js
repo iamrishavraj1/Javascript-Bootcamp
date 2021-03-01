@@ -527,7 +527,7 @@
 
 
 //Challange Time
- const months = ["Jan", "march", "April", "June", "July"];
+//  const months = ["Jan", "march", "April", "June", "July"];
 
 //1. Add Dec at the end of an array.
 
@@ -569,11 +569,37 @@
 
 //Array.prototype.map()
 
-let arr1 = [1,4,9,16,25];
-let newArr = arr1.map((curElm, index, arr)=>{
-return `The Index of ${index} is containing the value of ${curElm} in Array ${arr}`;
-});
+// let arr1 = [1,4,9,16,25];
+// let newArr = arr1.map((curElm, index, arr)=>{
+// return `The Index of ${index} is containing the value of ${curElm} in Array ${arr}`;
+// });
+// console.log(newArr);
+
+
+
+//Problem-1
+
+//Solution
+let arr1 = [2,3,4,6,8];
+let newArr = arr1.map((currElem)=>currElem*=2).filter((currElem)=>currElem>10);
 console.log(newArr);
+
+//problem-2
+
+//Soln
+let sqrRootArr = [25,36,49,64,81];
+let newSqrRootArr = sqrRootArr.map((number)=>{
+    for(let i = 0; i*i<=number;i++){
+        if(i*i==number){
+            return i;
+        }
+
+    }
+   
+});
+console.log(newSqrRootArr);
+
+
 
 
 
