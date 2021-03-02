@@ -580,29 +580,45 @@
 //Problem-1
 
 //Solution
-let arr1 = [2,3,4,6,8];
-let newArr = arr1.map((currElem)=>currElem*=2).filter((currElem)=>currElem>10);
-console.log(newArr);
+// let arr1 = [2,3,4,6,8];
+// let newArr = arr1.map((currElem)=>currElem*=2).filter((currElem)=>currElem>10);
+// console.log(newArr);
 
 //problem-2
 
 //Soln
-let sqrRootArr = [25,36,49,64,81];
-let newSqrRootArr = sqrRootArr.map((number)=>{
-    for(let i = 0; i*i<=number;i++){
-        if(i*i==number){
-            return i;
-        }
+// let sqrRootArr = [25,36,49,64,81];
+// let newSqrRootArr = sqrRootArr.map((number)=>{
+//     for(let i = 0; i*i<=number;i++){
+//         if(i*i==number){
+//             return i;
+//         }
 
-    }
+//     }
    
-});
-console.log(newSqrRootArr);
+// });
+// console.log(newSqrRootArr);
+
+
+//Reduce()
+
+// let arr =[2,2,2,2];
+// let sum = arr.reduce((accumulator,currElem,index,arr)=>accumulator+=currElem);
+// console.log(sum);
 
 
 
 
+//Flat array using reduce
+///converting 2d and 3d array in 1d array.
 
+let arr1 = [
+    ["Rishav", "Raj"],
+    ["Dhooni", "Baba"],
+    ["Good", "Morning"],
+    ["Good", "Night"]
+];
+console.log(arr1);
 
-
-
+let flatArr = arr1.reduce((accum,currElem)=>accum.concat(currElem));
+console.log(flatArr);
