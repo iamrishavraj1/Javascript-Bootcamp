@@ -612,13 +612,67 @@
 //Flat array using reduce
 ///converting 2d and 3d array in 1d array.
 
-let arr1 = [
-    ["Rishav", "Raj"],
-    ["Dhooni", "Baba"],
-    ["Good", "Morning"],
-    ["Good", "Night"]
-];
-console.log(arr1);
+// let arr1 = [
+//     ["Rishav", "Raj"],
+//     ["Dhooni", "Baba"],
+//     ["Good", "Morning"],
+//     ["Good", "Night"]
+// ];
+// console.log(arr1);
 
-let flatArr = arr1.reduce((accum,currElem)=>accum.concat(currElem));
-console.log(flatArr);
+// let flatArr = arr1.reduce((accum,currElem)=>accum.concat(currElem));
+// console.log(flatArr);
+
+// let number = 2
+// number = String
+// console.log(number);
+
+
+
+//String
+//Escape Character
+//Finding a String in a String
+//Searching for a String in a String
+//Extracting String Parts
+//Replacing String Content
+//Extracting String Characters
+//Other Useful methods.
+
+
+
+// let myName = "Rishav Raj";
+// let myPage = "SACT";
+
+// let ytName = new String("SCAT");
+// console.log(myName);
+// console.log(ytName);
+
+
+
+
+//Ecsape Character.
+
+// let mySen = "Hello World !, 'This is Rishav'";
+// let mySen2 = "Hello World, \"This is Rishav\"";
+// console.log(`${mySen} and ${mySen2}`);
+
+
+// Finding a String in a string.
+//indexOf() Method.
+// let myName = "Hello Rishav, How are You? "
+// let sMy = myName.indexOf("Rishav"); //Searching Start From ----------> Direction.
+// console.log(sMy);
+
+// let hMy = myName.lastIndexOf("Hello"); // Searching Start From <----------- Direction.
+// console.log(hMy);
+
+
+
+
+
+
+//Searching for a string in string.
+
+let myName = "Hello Rishav, How are You? "
+let sMy = myName.search("Rishav"); 
+console.log(sMy);
