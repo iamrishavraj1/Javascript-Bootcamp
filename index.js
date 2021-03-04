@@ -650,7 +650,7 @@
 
 
 
-//Ecsape Character.
+//Escape Character.
 
 // let mySen = "Hello World !, 'This is Rishav'";
 // let mySen2 = "Hello World, \"This is Rishav\"";
@@ -667,12 +667,113 @@
 // console.log(hMy);
 
 
-
-
-
-
 //Searching for a string in string.
 
-let myName = "Hello Rishav, How are You? "
-let sMy = myName.search("Rishav"); 
-console.log(sMy);
+// let myName = "Hello Rishav, How are You? ";
+// let sMy = myName.search("Rishav"); 
+// console.log(sMy);
+
+//Extracting String Parts
+//slice()
+//substring()
+//substr()
+
+//Slice()
+// var str = "apple, banana, kiwi";
+// let res = str.slice(0,4);
+// let res = str.slice(7,-2);
+// console.log(res);
+
+
+//Challenge Time.
+//Display only 280 characters of a strings like the one used in Twitter?
+
+
+// let myTweet = "Anim sint sint id anim sunt ea anim et ipsum. Exercitation aliquip consequat cillum est enim fugiat anim reprehenderit occaecat do consequat labore culpa. Occaecat ipsum ullamco sunt nostrud fugiat proident nisi fugiat non duis. Ut ex consequat laborum amet ut reprehenderit fugiat labore. Deserunt elit anim nisi sit irure non culpa sit enim amet. Velit voluptate anim duis velit.";
+// let myActualTweets = myTweet.slice(0,280);
+// console.log(myActualTweets);
+// console.log(myActualTweets.length);
+
+
+//Substring()
+//substr()
+
+
+
+//Replace Sting Content()
+
+// let myBioData =   "Hello, I am Coder";
+// let myNewData = myBioData.replace("Coder", "Programmer");
+// console.log(myNewData);
+// console.log(myBioData);
+
+
+
+
+
+//Extracting String Characters.
+//charAt()
+//charCodeAt()
+//property access[]
+
+
+//charAt()
+// let str = "Hello World";
+// console.log(str.charAt(0));
+
+//charCodeAt()
+// let str = "Hello World";
+// console.log(str.charCodeAt(0));
+
+
+
+//Challange Time
+//Q. Return the Unicode of the last character in a string.
+// let str = "HELLO WORLD";
+// console.log(str.charCodeAt(str.length-1));
+
+
+
+//Property Access
+
+// let str = "HELLO WORLD";
+// console.log(str[0]);
+
+//Other Useful Methods.
+
+
+//toUpperCase()
+//toLowerCase()
+
+// let str = "rishav raj";
+// console.log(str.toUpperCase());
+
+
+// let str = "RISHAV RAJ";
+// console.log(str.toLowerCase());
+
+
+//The concat() Method
+//concat() joins two or morw strings.
+
+
+// let fName = "rishav";
+// let lName = "raj";
+
+// console.log(fName.concat( lName));
+// console.log(fName.concat(" ",lName));
+
+
+
+// trim()
+// let message = "                                         Hello World !            ";
+// console.log(message.trim());
+
+
+
+
+//Convert string to array
+// var txt = "a,b,c,d,e,f";
+// console.log(txt.split(","));
+// console.log(txt.split(" "));
+// console.log(txt.split(" | "));
