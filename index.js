@@ -777,3 +777,81 @@
 // console.log(txt.split(","));
 // console.log(txt.split(" "));
 // console.log(txt.split(" | "));
+
+
+
+
+//Date & Time in JS
+
+
+//Creating Date Objects.
+
+//1. new Date()
+
+// let currDate = new Date();
+// console.log(currDate);
+
+// console.log(new Date());
+// console.log(new Date().toString());
+// console.log(new Date().toLocaleString());
+
+
+//Date.now()
+
+// console.log(Date.now());
+
+
+
+
+//2. new Date(year,month,day,hour,minute,second,millisecond);
+
+
+// let d = new Date(2021,2,5,18,57,29,0);
+// console.log(d.toLocaleString());
+
+
+//3.new Date(date String)
+
+// let d = new Date("March 5, 2021 19:05:00");
+// console.log(d.toLocaleString());
+
+
+//4. new Date(milliseconds)
+
+// let d = new Date(1614950394481);
+// console.log(d.toLocaleString());
+
+
+
+//Dates Methods
+
+//How to get the indivisual date.
+
+// const currDate =  new Date();
+// console.log(currDate.toLocaleString());
+// console.log(currDate.getFullYear());
+// console.log(currDate.getMonth());
+// console.log(currDate.getDate());
+// console.log(currDate.getDay());
+
+
+//Times Methods
+
+//How to Get the indivisual time.
+
+// const curTime = new Date();
+// console.log(curTime.getTime());
+// console.log(curTime.getHours());
+// console.log(curTime.getMinutes());
+// console.log(curTime.getSeconds());
+// console.log(curTime.getMilliseconds());
+
+
+
+
+//Challange Time.
+
+//1.
+new Date().toLocaleTimeString();
+new Date().toLocaleDateString();
+new Date().toLocaleString();
