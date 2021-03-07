@@ -856,3 +856,68 @@
 // new Date().toLocaleDateString();
 // new Date().toLocaleString()
 
+//Maths Object 
+
+//Math.PI()
+
+// console.log(Math.PI);
+
+//Math.round()
+
+// let num = 20.22030090;
+// console.log(Math.round(num));
+
+
+//Math.pow(x,y)
+
+// let num = 2;
+// console.log(Math.pow(num,3));
+
+
+//Math.sqrt()
+
+// console.log(Math.sqrt(25));
+// console.log(Math.sqrt(81));
+// console.log(Math.sqrt(66));
+
+
+//Math.abs()
+
+// console.log(Math.abs(-33));
+// console.log(Math.abs(-33.5));
+// console.log(Math.abs(-999));
+
+
+//Math.ceil()
+
+// console.log(Math.ceil(4.51));
+// console.log(Math.round(4.51));
+// console.log(Math.ceil(99.1));
+// console.log(Math.round(99.1));
+
+
+
+//Math.floor()
+
+// console.log(Math.floor(4.7));
+// console.log(Math.floor(99.1));
+
+
+//Math.min()
+
+// console.log(Math.min(0,1000.200,-5,-200));
+
+
+//Math.max()
+
+// console.log(Math.max(0,1000,200,-5,-200));
+
+
+//Math.random()
+
+// console.log(Math.floor(Math.random()*10));
+
+//Math.trunc()
+
+// console.log(Math.trunc(4.5));
+// console.log(Math.trunc(-99.1));
