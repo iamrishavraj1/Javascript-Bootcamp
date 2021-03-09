@@ -40,4 +40,4 @@
 
 //Why Function?
 
-
+//Difference b/w getElementById and querySelector?

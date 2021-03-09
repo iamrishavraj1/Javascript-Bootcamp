@@ -7,19 +7,26 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="mian-div">
-        <div class="child-1">
-            <p>I am child one</p>
-        </div>
-        <div class="child-2">
-            <p>I am child two</p>
-        </div>
-        <div class="child-3">
-            <p>I am child three</p>
-        </div>
-    </div>
+    <p class="child">Good Morning</p>
+    <p class="child">Good AfterNoon</p>
+    <p>Good Evening</p>
+    <h1 id="heading">Changes the content of the h1</h1>
+    <button onclick="changeContent()">Click me</button>
+
+    <form action="">
+        <label for="">male</label><input type="radio" name="gender" id="">
+        <label for="">female</label><input type="radio" name="gender" id="">
+        <label for="">femalemale</label><input type="radio" name="gender" id="">
+    </form>
 
     <script>
+        const changeContent = () =>{
+           // document.getElementById("heading").innerHTML = "Learning JS";
+            //document.getElementsByClassName("child").innerHTML = "hello";
+            //document.getElementsByTagName("p").innerHTML = "Hello";
+            //console.log(document.getElementsByName("gender"));
+            //document.querySelector(".child").innerHTML = "Hello";
+        };
         
     </script>
 </body>
