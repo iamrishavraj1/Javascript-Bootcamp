@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+</style>
+<body>
+    <button onclick="alert('I am Awesome')">Simple Inline Alert</button>
+    <button  onclick="callingMyFunction()">By Calling a Function</button>
+    <button id="inlineEvent" onclick="callingMyFunction()">By Inline Event</button>
+    <button id="eventListner">Event Listners</button>
+    <script>
+
+        const callingMyFunction = () => `${alert("By Calling a Function")}`; // BY Calling a Function.
+
+        const inlineEvent = document.querySelector("#inlineEvent"); //Using Inline Event.
+        inlineEvent.onclick = ()=>`${alert("Most common way of Writing functions again")}`;
+
+        const eventListner = document.querySelector("#eventListner"); //addEventListner
+        eventListner.addEventListener("click", ()=>`${alert("Hello I am Event Listner, Thank You")}`);
+
+    </script>
+</body> 
+</html>
