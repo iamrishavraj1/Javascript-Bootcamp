@@ -73,6 +73,6 @@
 
 
 //pop()
-const plants = ["hello","bello","huol"]
-console.log(plants.unshift("Gg"));
-console.log(plants); 
+// const plants = ["hello","bello","huol"]
+// console.log(plants.unshift("Gg"));
+// console.log(plants); 
